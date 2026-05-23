@@ -25,7 +25,7 @@
 --------------------------
 ##### 3. **Enumeration**
 Gobuster
-	gobuster dir -u http://agentt.thm/ -w /usr/share/wordlists/dirb/common.txt -x \ php,js,txt,html --exclude-length 42131
+	gobuster dir -u http://agentt.thm/ -w /usr/share/wordlists/dirb/common.txt -x php,js,txt,html --exclude-length 42131
 
 	Result
 		404.html
@@ -37,7 +37,7 @@ Gobuster
 ---------------------------------------
 ##### 4. **Hypothesis**
 
-During enumeration, no significant attack surface was identified through directory brute forcing or manual inspection of the dashboard.
+During enumeration, no significant attack surface was identified through directory brute forcing or manual inspection of the dashboard even on home and blank page.
 Based on the service fingerprinting results, the target was identified as running PHP 8.1.0-dev, a known vulnerable version containing a malicious backdoor that allows remote command execution via the "User-Agentt" HTTP header. 
 
 ##### **5. Validation**
