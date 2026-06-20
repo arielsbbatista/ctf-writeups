@@ -5,7 +5,6 @@
 **Target:** Corridor (TryHackMe)  
 **Vulnerability Identified:** Insecure Direct Object Reference (IDOR)  
 **Severity:** High  
-**Flag Captured:** `flag{2477ef02448ad9156661ac40a6b8862e}`  
 **Time to Root:** ~30 minutes
 
 ---
@@ -198,7 +197,7 @@ curl http://10.67.168.239/cfcd208495d565ef66e7dff9f98764da
         }
     </style>
     <h1>
-        flag{2477ef02448ad9156661ac40a6b8862e}
+        flag{}
     </h1>
 </body>
 </html>
@@ -291,7 +290,7 @@ Server: Werkzeug/2.0.3 Python/3.10.2
 ## 6. Captured Flag
 
 ```
-flag{2477ef02448ad9156661ac40a6b8862e}
+flag{}
 ```
 
 ---
