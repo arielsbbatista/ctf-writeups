@@ -4,8 +4,9 @@
 
 **Challenge:** Corridor  
 **Platform:** TryHackMe  
+**Room:** https://tryhackme.com/room/corridor
 **IP/DNS:** corridor.thm (10.67.168.239)  
-**Difficulty:** Easy-Medium  
+**Difficulty:** Easy 
 **Date:** 2026-06-19
 
 ---
@@ -176,11 +177,6 @@ synt{2477rs02448nq9156661np40n6o8862r}
 echo "synt{2477rs02448nq9156661np40n6o8862r}" | tr 'a-zA-Z' 'n-za-mN-ZA-M'
 ```
 
-**Decoding result:**
-```
-flag{2477ef02448ad9156661ac40a6b8862e}
-```
-
 ### Observations
 
 - Room 0 not visible in HTML image map (intentionally hidden or oversight)
@@ -278,7 +274,7 @@ IDOR exploitation doesn't require automated tools. Manual approach:
 | Aspect | Details |
 |--------|---------|
 | **Time to Root** | ~30 minutes |
-| **Difficulty** | Easy-Medium |
+| **Difficulty** | Easy |
 | **Primary Vulnerability** | IDOR (Insecure Direct Object Reference) |
 | **Severity** | High |
 | **Exploitation Method** | Boundary case testing (ID=0) |
@@ -288,5 +284,5 @@ IDOR exploitation doesn't require automated tools. Manual approach:
 ---
 
 **Status:** Complete  
-**Difficulty Assessment:** Easy-Medium  
+**Difficulty Assessment:** Easy  
 **Recommended Follow-up:** Study IDOR prevention and access control implementation
