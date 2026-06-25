@@ -2,7 +2,7 @@
 
 **Challenge:** DeathNote  
 **Platform:** VulnHub  
-**Difficulty:** Medium  
+**Difficulty:** Easy  
 **Category:** Web / Linux Privilege Escalation  
 **Date Completed:** 2026-06-22  
 **Status:** ✅ Fully Rooted  
